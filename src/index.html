@@ -9,37 +9,25 @@
 <body>
   <div class="container">
     <form id="bike-type">
-      <select class="form-control form-control-lg">
-          <option value="Black">Black</option>
-          <option>Large select</option>
-          <option>Large select</option>
-          <option>Large select</option>
-          <option>Large select</option>
-          <option>Large select</option>
-          <option>Large select</option>
-          <option>Large select</option>
-          <option>Large select</option>
-          <option>Large select</option>
-          <option>Large select</option>
-          <option>Large select</option>
-          <option>Large select</option>
+      <select class="form-control form-control-lg" id="color">
+          <option class="color" value="Black">Black</option>
+          <option class="color" value="Blue">Blue</option>
+          <option class="color" value="Brown">Brown</option>
+          <option class="color" value="Green">Green</option>
+          <option class="color" value="Orange">Orange</option>
+          <option class="color" value="Pink">Pink</option>
+          <option class="color" value="Purple">Purple</option>
+          <option class="color" value="Red">Red</option>
+          <option class="color" value="Silver, gray or bare metal">Silver, gray or bare metal</option>
+          <option class="color" value="Stickers tape or other cover-up">Stickers tape or other cover-up</option>
+          <option class="color" value="Teal">Teal</option>
+          <option class="color" value="White">White</option>
+          <option class="color" value="Yellow or Gold">Yellow or Gold</option>
       </select>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" value="Black">Black</a>
-        <a class="dropdown-item" value="Blue">Blue</a>
-        <a class="dropdown-item" value="Brown">Brown</a>
-        <a class="dropdown-item" value="Green">Green</a>
-        <a class="dropdown-item" value="Orange">Orange</a>
-        <a class="dropdown-item" value="Pink">Pink</a>
-        <a class="dropdown-item" value="Purple">Purple</a>
-        <a class="dropdown-item" value="Red">Red</a>
-        <a class="dropdown-item" value="Silver, gray or bare metal">Silver, gray or bare metal</a>
-        <a class="dropdown-item" value="Stickers tape or other cover-up">Stickers tape or other cover-up</a>
-        <a class="dropdown-item" value="Teal">Teal</a>
-        <a class="dropdown-item" value="White">White</a>
-        <a class="dropdown-item" value="Yellow or Gold">Yellow or Gold</a>
-      </div>
+      <button id="find-bike"  class="btn btn-warning btn-lg">Find Bike</button>
     </form>
+    <div id="result">
+    </div>
   </div>
 </body>
 </html>
